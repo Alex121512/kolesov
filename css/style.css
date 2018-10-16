@@ -1,0 +1,14 @@
+body {
+	margin: 0;
+	background:yellow;
+}
+
+resize {
+	margin: 0 auto;
+	width: 960px;
+}
+
+img {
+	padding: 10px'
+	border: 2px solid silver;
+}
