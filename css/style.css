@@ -16,8 +16,12 @@ ol, ul, dl, li, dt, dd { margin: 0; padding: 0; list-style: none;}
 
 
 body {
-	margin: 0;
-	background:yellow;
+	margin: 10px;
+	background:background.png;
+}
+
+body {
+	text-align: center;
 }
 
 resize {
@@ -26,6 +30,31 @@ resize {
 }
 
 img {
-	padding: 10px'
-	border: 2px solid silver;
+	padding: 10px;
 }
+p {
+	color: black;
+font-family: "Times New Romain";
+font-weight: bold;
+font-style: italic;
+font-size: 16px;
+line-height: 1.4em;
+}
+body {
+	text-align: center;
+}
+
+h1,h2 {
+	color:blue;
+}
+h
+
+
+
+
+
+
+
+
+
+
