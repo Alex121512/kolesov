@@ -17,7 +17,7 @@ ol, ul, dl, li, dt, dd { margin: 0; padding: 0; list-style: none;}
 
 body {
 	margin: 10px;
-	background:background.png;
+	background-color:#FF9500;
 }
 
 body {
@@ -30,7 +30,8 @@ resize {
 }
 
 img {
-	padding: 10px;
+	margin:0px;
+	padding: 5px 40px 5px 30px;
 }
 p {
 	color: black;
@@ -44,9 +45,11 @@ body {
 	text-align: center;
 }
 
-h1,h2 {
+h1,h2,h3 {
 	color:blue;
 }
+
+
 
 
 
