@@ -35,7 +35,7 @@ img {
 }
 p {
 	color: black;
-font-family: "Times New Romain";
+font-family: "Times New Romain", Helvetica, sans-serif;
 font-weight: bold;
 font-style: italic;
 font-size: 16px;
