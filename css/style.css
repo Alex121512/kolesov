@@ -1,11 +1,11 @@
-body { margin: 0; color: #666; font: normal 18px/28px Helvetica, Arial, sans-serif; background: #fff;}
+body { margin: 0;padding:32px 0; color: #333; font: normal 13px/18px Helvetica, Arial, sans-serif; background: #f7f0c2 url(../images/background.png) repeat left top;}
 .clear { clear: both;}
 p { margin: 0; padding: 10px 0;}
-a { color: #0000ff; text-decoration: underline;}
-a:hover { color: #7777ff;}
+a { color: #023875; text-decoration: underline;}
+a:hover { color: text-decoration:none;}
 a img { border: none;}
 h1, h2, h3, h4, h5, h6 { margin: 0; padding: 0; font-weight: bold; color: #000;}
-h1 { padding: 40px 0 24px; line-height: 1.4em;}
+h1 { padding: 40px 0 24px; font-size: 24px;line-height: 30px;}
 h2 { padding: 0 0 12px;}
 strong { font-weight: bold;}
 em { font-style: italic;}
@@ -14,37 +14,48 @@ ol, ul, dl, li, dt, dd { margin: 0; padding: 0; list-style: none;}
 *:focus { outline: none;}
 
 
-
-
-body {
-	margin: 10px;
-	background: #FF9500 url(../images/background.png) repeat left top;
-	text-align: center;
-}
-
-resize {
+.resize {
 	margin: 0 auto;
-	width: 960px;
+	padding: 0 16px;
+	width: 928px;
+	background: #fff;
 }
 
-img {
-	margin:0px;
-	padding: 5px 40px 5px 30px;
+.header a.logo {
+	text-decoration:none;
+	font-size:24px;
+	line-height:32px;
 }
-p {
-	color: black;
-font-family: "Times New Romain", Helvetica, sans-serif;
-font-weight: bold;
-font-style: italic;
-font-size: 16px;
-line-height: 1.4em;
+.header a.logo strong {
+	display:block;
+	font-size:48px;
+	line-height:60px;
+	font-weight: 32px;
 }
-body {
-	text-align: center;
+.header a.logo small {
+	display:block;
+	color:#333;
+	font-size:13px;
+	line-height:18px;
+}
+.header a.logo img {
+	
+}
+.header .info a {
+	display: block;
+	font-size: 24px;
+	line-height: 40px;
+    text-decoration:none
 }
 
-h1,h2,h3 {
-	color:blue;
+.blue-line {
+	margin:0 -16px;
+	padding:12px 16px;
+	background: #023875;
+	color:#fff;
+	font-size: 14px;
+	line-height:20px;
+	border-radius:5px;
 }
 
 
