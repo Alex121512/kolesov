@@ -22,12 +22,13 @@ ol, ul, dl, li, dt, dd { margin: 0; padding: 0; list-style: none;}
 }
 
 .header a.logo {
-	text-decoration:none;
+	padding: 24px 0 29px;
+	float:left;
 	font-size:24px;
+	text-decoration:none;
 	line-height:32px;
 	width:416px;
 	display:block;
-	float:left;
 }
 .header a.logo strong {
 	display:block;
@@ -43,11 +44,12 @@ ol, ul, dl, li, dt, dd { margin: 0; padding: 0; list-style: none;}
 }
 .header a.logo img {
 	float:right;
+	padding-top: 6px; 
 }
 
 .header .info {
 	float:right;
-	padding-top: 8px;
+	padding-top: 24px;
 	text-align:right;
 }
 
